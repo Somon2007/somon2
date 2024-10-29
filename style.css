@@ -1,0 +1,510 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header .first {
+    width: 100%;
+}
+
+.first-box {
+    background-size: cover;
+    background-image: url('./images/Surface-Pro-8-1.png');
+    border-bottom: 1px solid black;
+    padding: 30px 20px;
+}
+
+.left {
+    margin-top: -10px;
+    display: flex;
+    gap: 20px;
+    margin-left: 15px;
+}
+
+.icon1 img {
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.icon1 img:hover {
+    background-image: url('./images/facebook_733547.png');
+}
+
+.icon2 img {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.icon2 img:hover {
+    background-image: url('./images/telegram_3536661\ \(1\).png');
+}
+
+.icon3 img {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.icon3 img:hover {
+    background-image: url('./images/vk_3991827.png');
+}
+
+.right {
+    margin-right: 80px;
+    gap: 45px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.active1 img {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('./images/free-icon-font-heart-3916585.png');
+}
+
+.active1 img:hover {
+    height: 30px;
+    width: 30px;
+    background-image: url('./images/free-icon-font-heart-3916769\ 1.png');
+}
+
+.active2 img {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('./images/free-icon-font-shopping-bag-3916639.png');
+}
+
+.active2 img:hover {
+    height: 30px;
+    width: 30px;
+    background-image: url('./images/free-icon-font-shopping-bag-3916666.png');
+}
+
+.active3 img {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('./images/free-icon-font-marker-3916882.png');
+}
+
+.active3 img:hover {
+    height: 30px;
+    width: 30px;
+    background-image: url('./images/free-icon-font-marker-3916884.png');
+}
+
+.end {
+    display: flex;
+    justify-content: end;
+}
+
+.ppptext a img {
+    top: 17px;
+    right: 20px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+}
+
+header .second {
+    width: 100%;
+}
+
+.left a img {
+    width: 40px;
+    height: 40px;
+}
+
+.second-box {
+    background-size: cover;
+    background-image: url('./images/Surface-Pro-8-1.png');
+    padding: 15px 10px;
+}
+
+.text a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    display: inline;
+    font-size: 30px;
+}
+
+.text a.active  {
+    margin-left: 900px;
+    padding: 5px 5px 5px 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.text a.active:hover {
+    color: rgb(45, 95, 138);
+    border: 2px solid rgb(45, 95, 138);
+}
+
+.menu-text a {
+    margin-left: 50px;
+    color: black;
+    text-decoration: none;
+    display: inline;
+    font-size: 30px;
+}
+
+.menu {
+    left: 890px;
+    position: absolute;
+    display: none;
+}
+
+.text:hover .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+main, .third {
+    width: 100%;
+}
+
+.third-box {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: url('./images/Surface-Pro-8-1.png');
+}
+
+.picture {
+    border-radius: 15px;
+    margin-left: 20px;
+    width: 1100px;
+    height: 450px;
+    padding-bottom: 30px;
+}
+
+.plac {
+    position: absolute;
+}
+
+.plac1 {
+    position: absolute;
+    top: -380px;
+    left: 80px;
+}
+
+.plac1 input {
+    padding: 8px 15px;
+    border: 2px solid rgb(30, 30, 75);
+    border-radius: 10px;
+}
+
+.plac1 input:hover {
+    border: 2px solid rgb(218, 212, 62);
+}
+
+.plac2 {
+    position: absolute;
+    top: -380px;
+    left: 330px;
+}
+
+.plac2 input {
+    padding: 8px 15px;
+    border: 2px solid rgb(30, 30, 75);
+    border-radius: 10px;
+}
+
+.plac2 input:hover {
+    border: 2px solid rgb(218, 212, 62);
+}
+
+
+.plac3 {
+    position: absolute;
+    top: -380px;
+    left: 580px;
+}
+
+.plac3 input {
+    padding: 8px 15px;
+    border: 2px solid rgb(30, 30, 75);
+    border-radius: 10px;
+}
+
+.plac3 input:hover {
+    border: 2px solid rgb(218, 212, 62);
+}
+
+.plac a {
+    padding: 8px 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px rgba(0, 0, 255, 0.696);
+    background: rgba(0, 0, 255, 0.696);
+    position: absolute;
+    top: -381px;
+    left: 880px;
+}
+
+.box img{
+    width: 1060px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.fourth {
+    width: 100%;
+}
+
+.fourth-box {
+    background-size: cover;
+    background-image: url('./images/Surface-Pro-8-1.png');
+    padding: 50px 0px;
+    border-bottom: 2px solid hsl(0, 0%, 100%)
+}
+
+.menu-text a:hover {
+    color: rgb(45, 95, 138);;
+}
+
+.ptext p{
+    color: #ffffff;
+    margin-left: 70px;
+    font-size: 40px;
+}
+
+.fifth {
+    width: 100%;
+}
+
+.fifth-box {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: url('./images/Surface-Pro-8-1.png');
+    border-bottom: 2px solid white;
+}
+
+.one-section p {
+    color: white;
+    font-size: 48px;
+    margin-top: -80px;
+    margin-left: 30px;
+}
+
+.one-sect10 a {
+    position: absolute;
+    display: none;
+}
+
+.one-section:hover .one-sect10 a {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.one-section:hover{
+    filter: brightness(70%);
+}
+
+.two-section p {
+    color: white;
+    font-size: 48px;
+    margin-top: -80px;
+    margin-left: 30px;
+}
+
+.two-section:hover {
+    filter: brightness(70%);
+}
+
+.three-section p {
+    color: white;
+    font-size: 48px;
+    margin-top: -80px;
+    margin-left: 30px;
+}
+
+.three-section:hover {
+    filter: brightness(70%);
+}
+
+.hotel p {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+header, .sixth {
+    width: 100%;
+}
+
+.sixth-box {
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    background-size: cover;
+    background-image: url('images/Surface-Pro-8-1.png');
+}
+
+.one-img img{
+    width: 260px;
+    border-radius: 10px;
+}
+
+.two-img img{
+    width: 260px;
+    border-radius: 10px;
+}
+
+.three-img img{
+    width: 260px;
+    border-radius: 10px;
+}
+
+.four-img img{
+    width: 260px;
+    border-radius: 10px;
+}
+
+.one-img, .two-img, .three-img, .four-img p {
+    font-family: LeckerliOne-Regular;
+    color: #ffffff;
+}
+
+.one-img p {
+    font-size: 36px;
+    margin-left: 20px;
+    margin-top: -60px;
+}
+
+.one-img:hover {
+    filter: brightness(70%);
+}
+
+.two-img p {
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: -50px;
+}
+
+.two-img:hover {
+    filter: brightness(70%);
+}
+
+.three-img p {
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: -47px;
+}
+
+.three-img:hover {
+    filter: brightness(70%);
+}
+
+.four-img p {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: -50px;
+}
+
+.four-img:hover {
+    filter: brightness(70%);
+}
+
+header .seven {
+    width: 100%;
+}
+
+.seven-box {
+    padding-bottom: 40px;
+    max-width: 1140px;
+    background-color: #3C3B3B;
+}
+
+.left-footer a {
+    padding-left: 20px;
+    padding-top: 35px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.left-footer a:hover {
+    color: pink;
+}
+
+.right-end {
+    margin-left: 800px;
+
+}
+
+.right-end a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px 25px;
+    background-size: cover;
+    background: url('./images/Surface-Pro-8-1.png');
+}
+
+.right-somon {
+    margin-top: 20px;
+    margin-left: -68px;
+}
+
+.right-somon img {
+    border-radius: 15px;
+    border: 2px solid rgb(231, 231, 213);
+    width: 55px;
+    display: inline;
+    margin-left: 20px;
+}
+
+.right-somon img:hover {
+    border: 2px solid rgb(107, 203, 238);
+}
+
+.plan-img {
+    top: 1875px;
+    left: 18px;
+    position: absolute;
+}
+
+.plan-img img {
+    border-radius: 8px;
+    width: 60px;
+    height: 105px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
